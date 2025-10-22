@@ -103,16 +103,16 @@ sheet.addEventListener('scroll', () => {
 // Download 1
 downloadBtn1.addEventListener('click', () => {
   const link = document.createElement('a');
-  link.href = 'letter_for_her.pdf';
-  link.download = 'letter_for_her.pdf';
+  link.href = 'award.jpg';
+  link.download = 'award.jpg';
   link.click();
 });
 
 // Download 2
 downloadBtn2.addEventListener('click', () => {
   const link = document.createElement('a');
-  link.href = 'secret_page.png';
-  link.download = 'secret_page.png';
+  link.href = 'photo.jpg';
+  link.download = 'photo.jpg';
   link.click();
 });
 
