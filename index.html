@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Letter for You 💌</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2919/2919600.png">
+</head>
+<body>
+  <audio id="song" src="song.mp3" preload="auto"></audio>
+
+  <div class="note" id="note">Click the envelope to open 💌</div>
+
+  <!-- Envelope -->
+  <div class="envelope" id="envelope">
+    <div class="envelope-flap"></div>
+    <div class="envelope-body"></div>
+  </div>
+
+  <!-- Letter -->
+  <div class="letter" id="letter">
+    <div class="sheet" id="sheet">
+      <div class="letter-content" id="letterContent"></div>
+    </div>
+
+    <div class="download-group">
+      <button id="downloadBtn1" class="download-btn">Download This</button>
+      <button id="downloadBtn2" class="download-btn">And This</button>
+      <button id="readAgain" class="download-btn">↻ Read Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
